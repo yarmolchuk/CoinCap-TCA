@@ -8,17 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		41631B152C4569EC00C3861E /* CoinCapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41631B142C4569EC00C3861E /* CoinCapApp.swift */; };
-		41631B172C4569EC00C3861E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41631B162C4569EC00C3861E /* ContentView.swift */; };
+		41631B172C4569EC00C3861E /* AssetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41631B162C4569EC00C3861E /* AssetListView.swift */; };
 		41631B192C4569ED00C3861E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41631B182C4569ED00C3861E /* Assets.xcassets */; };
 		41631B1C2C4569ED00C3861E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41631B1B2C4569ED00C3861E /* Preview Assets.xcassets */; };
+		41631B242C456B5300C3861E /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 41631B232C456B5300C3861E /* ComposableArchitecture */; };
+		41631B272C456C3600C3861E /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41631B262C456C3600C3861E /* Asset.swift */; };
+		41631B2D2C456DFA00C3861E /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41631B2C2C456DFA00C3861E /* APIError.swift */; };
+		41631B2F2C45738000C3861E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41631B2E2C45738000C3861E /* NetworkService.swift */; };
+		41631B312C4573C300C3861E /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41631B302C4573C300C3861E /* Endpoint.swift */; };
+		41B26DCF2C469E2E0005CEE1 /* AssetListFeture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B26DCE2C469E2E0005CEE1 /* AssetListFeture.swift */; };
+		41EE14DE2C4DB10300CEF256 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE14DD2C4DB10300CEF256 /* ErrorView.swift */; };
+		41EE14E02C4DB17000CEF256 /* AssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE14DF2C4DB17000CEF256 /* AssetView.swift */; };
+		41EE14E32C4E353D00CEF256 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE14E22C4E353D00CEF256 /* Color.swift */; };
+		41EE14E52C4E356100CEF256 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE14E42C4E356100CEF256 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41631B112C4569EC00C3861E /* CoinCap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinCap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41631B142C4569EC00C3861E /* CoinCapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCapApp.swift; sourceTree = "<group>"; };
-		41631B162C4569EC00C3861E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41631B162C4569EC00C3861E /* AssetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetListView.swift; sourceTree = "<group>"; };
 		41631B182C4569ED00C3861E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41631B1B2C4569ED00C3861E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41631B262C456C3600C3861E /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		41631B2C2C456DFA00C3861E /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		41631B2E2C45738000C3861E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		41631B302C4573C300C3861E /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		41B26DCE2C469E2E0005CEE1 /* AssetListFeture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetListFeture.swift; sourceTree = "<group>"; };
+		41EE14DD2C4DB10300CEF256 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		41EE14DF2C4DB17000CEF256 /* AssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetView.swift; sourceTree = "<group>"; };
+		41EE14E22C4E353D00CEF256 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		41EE14E42C4E356100CEF256 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41631B242C456B5300C3861E /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +71,12 @@
 		41631B132C4569EC00C3861E /* CoinCap */ = {
 			isa = PBXGroup;
 			children = (
+				41D6EA592C51614700836CF3 /* Presentation */,
+				41EE14E12C4E353500CEF256 /* Utilites */,
+				41631B2B2C456DD600C3861E /* Networking */,
+				41631B252C456C2400C3861E /* Model */,
 				41631B142C4569EC00C3861E /* CoinCapApp.swift */,
-				41631B162C4569EC00C3861E /* ContentView.swift */,
+				41B26DCE2C469E2E0005CEE1 /* AssetListFeture.swift */,
 				41631B182C4569ED00C3861E /* Assets.xcassets */,
 				41631B1A2C4569ED00C3861E /* Preview Content */,
 			);
@@ -65,6 +89,43 @@
 				41631B1B2C4569ED00C3861E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41631B252C456C2400C3861E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41631B262C456C3600C3861E /* Asset.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41631B2B2C456DD600C3861E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				41631B2C2C456DFA00C3861E /* APIError.swift */,
+				41631B302C4573C300C3861E /* Endpoint.swift */,
+				41631B2E2C45738000C3861E /* NetworkService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		41D6EA592C51614700836CF3 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				41631B162C4569EC00C3861E /* AssetListView.swift */,
+				41EE14DF2C4DB17000CEF256 /* AssetView.swift */,
+				41EE14DD2C4DB10300CEF256 /* ErrorView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		41EE14E12C4E353500CEF256 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				41EE14E22C4E353D00CEF256 /* Color.swift */,
+				41EE14E42C4E356100CEF256 /* String.swift */,
+			);
+			path = Utilites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +144,9 @@
 			dependencies = (
 			);
 			name = CoinCap;
+			packageProductDependencies = (
+				41631B232C456B5300C3861E /* ComposableArchitecture */,
+			);
 			productName = CoinCap;
 			productReference = 41631B112C4569EC00C3861E /* CoinCap.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +175,9 @@
 				Base,
 			);
 			mainGroup = 41631B082C4569EC00C3861E;
+			packageReferences = (
+				41631B222C456B5300C3861E /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 41631B122C4569EC00C3861E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +204,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41631B172C4569EC00C3861E /* ContentView.swift in Sources */,
+				41631B312C4573C300C3861E /* Endpoint.swift in Sources */,
+				41EE14E32C4E353D00CEF256 /* Color.swift in Sources */,
+				41631B272C456C3600C3861E /* Asset.swift in Sources */,
+				41631B172C4569EC00C3861E /* AssetListView.swift in Sources */,
+				41B26DCF2C469E2E0005CEE1 /* AssetListFeture.swift in Sources */,
+				41EE14E52C4E356100CEF256 /* String.swift in Sources */,
+				41631B2D2C456DFA00C3861E /* APIError.swift in Sources */,
+				41631B2F2C45738000C3861E /* NetworkService.swift in Sources */,
+				41EE14DE2C4DB10300CEF256 /* ErrorView.swift in Sources */,
 				41631B152C4569EC00C3861E /* CoinCapApp.swift in Sources */,
+				41EE14E02C4DB17000CEF256 /* AssetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +345,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoinCap/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -286,6 +363,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Yarmolchuk.CoinCap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,9 +375,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoinCap/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -314,6 +393,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Yarmolchuk.CoinCap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,6 +422,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		41631B222C456B5300C3861E /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = exactVersion;
+				version = 1.11.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		41631B232C456B5300C3861E /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41631B222C456B5300C3861E /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 41631B092C4569EC00C3861E /* Project object */;
 }
